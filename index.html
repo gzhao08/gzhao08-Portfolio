@@ -1,11 +1,72 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Gordon Zhao</h1>
-    <p>Dynamic and motivated UBC student pursuing a degree in Engineering Physics, equipped with a strong passion for continuous learning and teaching. Quick learner with a proactive approach to teamwork, demonstrated through high quality performance. Eager to apply academic knowledge in real-world settings and gain valuable experience in teaching and educational leadership. Committed to contributing positively to interdisciplinary teams while further developing skills in problem-solving and innovative thinking. </p>
+
+    <!-- Navigation Menu -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Showcasing my work and projects</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Dynamic and motivated UBC student pursuing a degree in Engineering Physics, equipped with a strong passion for continuous learning and teaching. Quick learner with a proactive approach to teamwork, demonstrated through high quality performance. Eager to apply academic knowledge in real-world settings and gain valuable experience in teaching and educational leadership. Committed to contributing positively to interdisciplinary teams while further developing skills in problem-solving and innovative thinking.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of your first project.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of your second project.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
